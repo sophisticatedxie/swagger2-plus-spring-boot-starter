@@ -1,7 +1,7 @@
 # swagger2-plus-spring-boot-starter
-
+![输入图片说明](https://img.shields.io/badge/license-Apache--2.0-blue "在这里输入图片标题") ![输入图片说明](https://img.shields.io/badge/maven-1.0.7-green "在这里输入图片标题") ![输入图片说明](https://img.shields.io/badge/Prs-welcome-red "在这里输入图片标题")
 #### 介绍
-基于swagger2的springboot 进阶版在线api文档生成工具
+这个项目一开始的时候主要是迎合前后端分离的狂潮，后端api文档新贵swagger2的诞生和它的UI进阶版knife4j， 为了方便它和springboot项目更进一步的简单集成而萌发的一个想法，目前knife4j的作者也已经推出了knife4j的springboot插件包，感谢开源，感谢swagger。
 
 #### 软件架构
 软件架构说明

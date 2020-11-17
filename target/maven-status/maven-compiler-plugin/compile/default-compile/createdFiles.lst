@@ -1,0 +1,6 @@
+com\xiejr\swagger\Swagger2Config.class
+com\xiejr\annotations\EnableApiDocument.class
+com\xiejr\autoconfig\SwaggerFactoryBean.class
+com\xiejr\autoconfig\AnnotationDriverManager.class
+com\xiejr\autoconfig\AutoConfiguration.class
+com\xiejr\swagger\SwaggerBootstrapUiDemoApplication.class
