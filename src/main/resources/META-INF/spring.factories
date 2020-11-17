@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.gitee.xiejr.autoconfig.AutoConfiguration
+com.github.sophisticatedxie.autoconfig.AutoConfiguration

@@ -1,7 +1,7 @@
-package com.gitee.xiejr.autoconfig;
+package com.github.sophisticatedxie.autoconfig;
 
 
-import com.gitee.xiejr.annotations.EnableApiDocument;
+import com.github.sophisticatedxie.annotations.EnableApiDocument;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
@@ -24,12 +24,7 @@ import java.net.UnknownHostException;
 import java.util.Arrays;
 
 
-/**
- * @program: knife4j-swagger进阶版在线api生成工具
- * @description: swagger注解驱动
- * @author: xiejairong
- * @create: 2020-04-18 11:43
- **/
+
 @Slf4j
 public class AnnotationDriverManager implements ImportBeanDefinitionRegistrar, EnvironmentAware {
 
@@ -56,14 +51,7 @@ public class AnnotationDriverManager implements ImportBeanDefinitionRegistrar, E
     }
 
 
-    /**
-     *
-     * @param
-     * @return boolean
-     * @author xiejr
-     * @description: 判断当前环境和配置的环境是否匹配
-     * @date 2020/11/16 15:16
-     */
+
 
     private boolean activeByEnv(AnnotationAttributes annotationMap){
         String[] envs=environment.getActiveProfiles();

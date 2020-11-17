@@ -1,14 +1,9 @@
-package com.gitee.xiejr.swagger;
+package com.github.sophisticatedxie.swagger;
 
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-/**
- * @program: home-server
- * @description: swagger页面配置
- * @author: xjr
- * @create: 2020-02-29 19:05
- **/
+
 public class SwaggerBootstrapUiDemoApplication implements WebMvcConfigurer {
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
